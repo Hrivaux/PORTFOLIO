@@ -32,7 +32,11 @@
       }
     }
   }
-
+  function swapImg(elt){
+    
+    elt.width=newWidth;
+    elt.height=newHeight;
+}
   /**
    * Easy on scroll event listener 
    */
